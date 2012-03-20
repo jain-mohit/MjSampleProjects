@@ -16,6 +16,13 @@
 		FA1896F9151264F1000FEA85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1896F8151264F1000FEA85 /* ViewController.m */; };
 		FA1896FC151264F1000FEA85 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1896FA151264F1000FEA85 /* ViewController_iPhone.xib */; };
 		FA1896FF151264F1000FEA85 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1896FD151264F1000FEA85 /* ViewController_iPad.xib */; };
+		FA1897081512667D000FEA85 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1897061512667D000FEA85 /* DisplayViewController.m */; };
+		FA1897091512667D000FEA85 /* DisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1897071512667D000FEA85 /* DisplayViewController.xib */; };
+		FA18975C1513D1D1000FEA85 /* DisplayViewForiPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA18975B1513D1D1000FEA85 /* DisplayViewForiPad.xib */; };
+		FA9100771517DFF400B424E0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9100741517DFF400B424E0 /* icon.png */; };
+		FA9100781517DFF400B424E0 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9100751517DFF400B424E0 /* splash.jpg */; };
+		FA9100791517DFF400B424E0 /* theSecret.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9100761517DFF400B424E0 /* theSecret.png */; };
+		FA9100801518D42E00B424E0 /* iconForiPhone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA91007F1518D42E00B424E0 /* iconForiPhone.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +30,24 @@
 		FA1896E5151264F1000FEA85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA1896E7151264F1000FEA85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA1896E9151264F1000FEA85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FA1896ED151264F1000FEA85 /* LocalNotificationTestApp-Info.plist */ = {isa = PBXFileReference; path = "LocalNotificationTestApp-Info.plist"; sourceTree = "<group>"; };
+		FA1896ED151264F1000FEA85 /* LocalNotificationTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalNotificationTestApp-Info.plist"; sourceTree = "<group>"; };
 		FA1896EF151264F1000FEA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA1896F1151264F1000FEA85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA1896F3151264F1000FEA85 /* LocalNotificationTestApp-Prefix.pch */ = {isa = PBXFileReference; path = "LocalNotificationTestApp-Prefix.pch"; sourceTree = "<group>"; };
-		FA1896F4151264F1000FEA85 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA1896F3151264F1000FEA85 /* LocalNotificationTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalNotificationTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		FA1896F4151264F1000FEA85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA1896F5151264F1000FEA85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA1896F7151264F1000FEA85 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FA1896F7151264F1000FEA85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FA1896F8151264F1000FEA85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA1896FB151264F1000FEA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		FA1896FE151264F1000FEA85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FA1897051512667D000FEA85 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		FA1897061512667D000FEA85 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		FA1897071512667D000FEA85 /* DisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayViewController.xib; sourceTree = "<group>"; };
+		FA18975B1513D1D1000FEA85 /* DisplayViewForiPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayViewForiPad.xib; sourceTree = "<group>"; };
+		FA9100741517DFF400B424E0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = imagesForiPhone/icon.png; sourceTree = "<group>"; };
+		FA9100751517DFF400B424E0 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash.jpg; path = imagesForiPhone/splash.jpg; sourceTree = "<group>"; };
+		FA9100761517DFF400B424E0 /* theSecret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = theSecret.png; path = imagesForiPhone/theSecret.png; sourceTree = "<group>"; };
+		FA91007F1518D42E00B424E0 /* iconForiPhone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iconForiPhone.jpg; path = imagesForiPhone/iconForiPhone.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,8 @@
 		FA1896D6151264F1000FEA85 = {
 			isa = PBXGroup;
 			children = (
+				FA9100721517DFC200B424E0 /* imagesForiPhone */,
+				FA18970A1512699D000FEA85 /* images */,
 				FA1896EB151264F1000FEA85 /* LocalNotificationTestApp */,
 				FA1896E4151264F1000FEA85 /* Frameworks */,
 				FA1896E2151264F1000FEA85 /* Products */,
@@ -84,6 +101,10 @@
 				FA1896F7151264F1000FEA85 /* ViewController.h */,
 				FA1896F8151264F1000FEA85 /* ViewController.m */,
 				FA1896FA151264F1000FEA85 /* ViewController_iPhone.xib */,
+				FA1897051512667D000FEA85 /* DisplayViewController.h */,
+				FA1897061512667D000FEA85 /* DisplayViewController.m */,
+				FA18975B1513D1D1000FEA85 /* DisplayViewForiPad.xib */,
+				FA1897071512667D000FEA85 /* DisplayViewController.xib */,
 				FA1896FD151264F1000FEA85 /* ViewController_iPad.xib */,
 				FA1896EC151264F1000FEA85 /* Supporting Files */,
 			);
@@ -99,6 +120,24 @@
 				FA1896F3151264F1000FEA85 /* LocalNotificationTestApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA18970A1512699D000FEA85 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FA9100721517DFC200B424E0 /* imagesForiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FA91007F1518D42E00B424E0 /* iconForiPhone.jpg */,
+				FA9100741517DFF400B424E0 /* icon.png */,
+				FA9100751517DFF400B424E0 /* splash.jpg */,
+				FA9100761517DFF400B424E0 /* theSecret.png */,
+			);
+			name = imagesForiPhone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +194,12 @@
 				FA1896F0151264F1000FEA85 /* InfoPlist.strings in Resources */,
 				FA1896FC151264F1000FEA85 /* ViewController_iPhone.xib in Resources */,
 				FA1896FF151264F1000FEA85 /* ViewController_iPad.xib in Resources */,
+				FA1897091512667D000FEA85 /* DisplayViewController.xib in Resources */,
+				FA18975C1513D1D1000FEA85 /* DisplayViewForiPad.xib in Resources */,
+				FA9100771517DFF400B424E0 /* icon.png in Resources */,
+				FA9100781517DFF400B424E0 /* splash.jpg in Resources */,
+				FA9100791517DFF400B424E0 /* theSecret.png in Resources */,
+				FA9100801518D42E00B424E0 /* iconForiPhone.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +213,7 @@
 				FA1896F2151264F1000FEA85 /* main.m in Sources */,
 				FA1896F6151264F1000FEA85 /* AppDelegate.m in Sources */,
 				FA1896F9151264F1000FEA85 /* ViewController.m in Sources */,
+				FA1897081512667D000FEA85 /* DisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +253,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mohit Jain (8GS62P5N2A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -222,6 +269,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "B9F1B1E2-B2D1-418B-870C-FAE4159DD780";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -233,6 +281,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mohit Jain (8GS62P5N2A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -242,6 +291,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B9F1B1E2-B2D1-418B-870C-FAE4159DD780";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -289,6 +339,7 @@
 				FA189704151264F1000FEA85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,11 +9,25 @@
 #import <UIKit/UIKit.h>
 
 @class ViewController;
+@class DisplayViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UIAlertViewDelegate> {
+}
+
+
+
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) DisplayViewController *displayViewController;
+@property (strong, nonatomic) UIView *view;
+@property (strong, nonatomic) UIImageView *splashView;
+
+extern NSString *kRemindMeNotificationDataKey;
+
+-(void)removeSplash;
+-(void)callForSplashScreen;
 
 @end

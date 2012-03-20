@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAlertViewDelegate> {
+    
+    int flag1;
+    
+}
+
+@property(nonatomic, strong) IBOutlet UIButton *setNotification;
+@property(nonatomic) int flag1;
+@property(nonatomic, strong) UIView *view1;
+
+- (IBAction)setNotificationForMessageDisplay: (id)sender;
+- (void)showReminder:(NSString *)text;
+- (void)clearNotification;
+
++ (id)sharedManager;
 
 @end
