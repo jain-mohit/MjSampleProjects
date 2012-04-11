@@ -35,10 +35,15 @@
     
     docsDir = [dirPaths objectAtIndex:0];
     
-    // Build the path to the database file
+    // Build the path to the database file and naming it contacts.db
     databasePath = [[NSString alloc] initWithString: [docsDir stringByAppendingPathComponent: @"contacts.db"]];
     
-    NSFileManager *filemgr = [NSFileManager defaultManager];
+    // Creates an NSFileManager instance and subsequently uses it to detect if the database file already exists.
+       
+       NSFileManager *filemgr = [NSFileManager defaultManager];
+    
+    
+   //  If the file does not yet exist the code converts the path to a UTF-8 string and creates the database via a call to the SQLite sqlite3_open() function, passing through a reference to the contactDB variable declared previously in the interface file.
     
     if ([filemgr fileExistsAtPath: databasePath ] == NO)
     {
@@ -108,6 +113,8 @@
         const char *insert_stmt = [insertSQL UTF8String];
         
         sqlite3_prepare_v2(contactDB, insert_stmt, -1, &statement, NULL);
+        
+        // this function must be called one or more times to evaluate the statement.
         if (sqlite3_step(statement) == SQLITE_DONE)
         {
             status.text = @"Contact added";
@@ -136,6 +143,7 @@
         
         const char *query_stmt = [querySQL UTF8String];
         
+       
         if (sqlite3_prepare_v2(contactDB, query_stmt, -1, &statement, NULL) == SQLITE_OK)
         {
             if (sqlite3_step(statement) == SQLITE_ROW)
@@ -155,6 +163,8 @@
                 address.text = @"";
                 phone.text = @"";
             }
+            
+            //deleting a prepared statement which is created by using sqlite3_prepare_v2()
             sqlite3_finalize(statement);
         }
         sqlite3_close(contactDB);
